@@ -1,1 +1,150 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T5]{fontenc}
+\usepackage[vietnamese,english]{babel}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{multicol}
+\usepackage{parcolumns}
+\usepackage{color}
+\usepackage{wrapfig}
+\usepackage[left=2.00cm,right=2.00cm,top=2.00cm,bottom=2.00cm]{geometry}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan,
+}
 
+\begin{document}
+\begin{titlepage}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+
+%--------------HEADING--------------------------------------------------------------------------------------------------------
+
+%Tên Trường
+\textsc{\LARGE Đại học quốc gia TP.HCM}
+\newline
+\textsc{\LARGE Trường đại học công nghệ thông tin}\\[1.5cm]
+%Logo trường
+\graphicspath{{./logo/}}
+\includegraphics[scale=0.5]{logo-uit.png}\\[1.5cm]
+%Chuyên ngành
+\textsc{\Large Ngành khoa học máy tính}\\[0.5cm]
+%Môn
+\textsc{\large Môn học: Kỹ năng nghề nghiệp}\\[0.5cm]
+
+%---------------------------TITLE---------------------------------------------------------------------------------------------
+\HRule \\[0.4cm]
+\textsc{\LARGE \textbf{Bài tập nhóm - Tạo CV} }\\
+\HRule \\[1.5cm]
+
+%------------------------AUThOR-----------------------------------------------------------------------------------------------
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft}\large
+\emph{Sinh viên 1: }\\
+Nguyễn Lâm Thảo Vy - 19522547\\
+\emph{Sinh viên 2: }\\
+Nguyễn Thị Thúy An - 19521183\\
+\emph{Sinh viên 3: }\\
+Nông Thanh Hồng - 19521551\\
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushright}\large
+\emph{Giảng viên: }\\
+Nguyễn Văn Toàn
+\end{flushright}
+\end{minipage}
+\\[1cm]
+{\large Thành phố Hồ Chí Minh, tháng 05 năm 2020}
+\end{titlepage}
+\newpage
+%-------------BEGIN CV--------------------------------------------------------------------------------------------------------------------------
+
+
+\begin{parcolumns}[colwidths={1=.35\textwidth},rulebetween=true]{2}
+\colchunk{
+\begin{center}
+    
+\includegraphics[scale=0.05]{Ảnh.jpg}
+\end{center}
+{\LARGE \center \textcolor{cyan}{Nông Thanh Hồng}}\\
+{\large \textbf{Ứng tuyển: Software Engineer - Kỹ sư phần mềm}}\\
+\includegraphics[scale=0.4]{iconDOB.png}
+20/07/2001\\
+\includegraphics[scale=0.03]{sex-symbol-1831618-1554562.png}
+Nam\\\
+\includegraphics[scale=0.04]{png-clipart-blue-phone-inside-circle-icon-telephone-call-symbol-smartphone-ringing-phone-miscellaneous-blue-thumbnail.png}
+0343297817\\
+\includegraphics[scale=0.04]{png-computer-icons-email-internet-icon-design-gradient-poster-miscellaneous-angle-triangle-logo-clipart.jpg}
+19521551@gm.uit.edu.vn\\
+\includegraphics[scale=0.08]{Untitled-3-25-512.jpg}
+Đông Hoà, Dĩ An, Bình Dương, Việt Nam.\\
+{\Large \textbf{Học vấn}} \line(1,0){100}\\
+\textbf{Cử nhân khoa học máy tính}
+\begin{itemize}
+    \item Trường đại học: công nghệ thông tin - đại học quốc gia HCM
+    \item Thời gian bắt đầu - tốt nghiệp:\\ 8/2019 - 3/2022
+    \item Tốt nghiệp loại giỏi - điểm trung bình: 8.75
+    \item Chuyên ngành: Thị giác máy tính và đa phương tiện
+    \item Theo học khoá học kỹ năng quản lý IT toàn diện.
+    \item Theo học khoá học kỹ năng mềm.
+\end{itemize}
+{\Large \textbf{Ngoại ngữ}} \line(1,0){90}\\
+\begin{itemize}
+    \item Bằng Ielts 7.0 của IDP Education
+    \item Chứng chỉ tiếng Nhật N3\\
+\end{itemize}
+
+}
+\colchunk{
+{\Large \center \colorbox{gray}{\textcolor{white}{Tóm tắt bản thân}}}\\
+Là cựu sinh viên của trường đại học Công Nghệ Thông Tin - DHQG HCM.\\ 
+Có khả năng dễ dàng thích nghi với môi trường làm việc mới\\
+Có kinh nghiệm sử dụng thực tế trên trên 5 năm trong việc lập trình với C++, Python và Java\\
+Thành thạo HTML/CSS/Javascript\\
+Có kỹ năng tốt về chuyên môn cũng như kỹ năng mềm để quản lý một nhóm cũng như hoạt động độc lập trong nhiều dự án khác nhau.\\
+Sắn sàng học hỏi những kiến thức mới khi cần thiết.\\
+Có kinh nghiệm làm việc ở nhiều vị trí khác nhau.\\
+
+{\Large \center \colorbox{gray}{\textcolor{white}{Kinh Nghiệm Nghề Nghiệp}}}\\[0.5cm]
+    2022-2023: \quad Deverloper tại IPA company\\
+    2023-2025: \quad Software Engineer tại BiliBili\\
+    2025-2027: \quad Senior Software Engineer tại BiliBili\\
+    2026: \hspace{2.8em} Tham gia dự án phát triển phần  mềm dành \\
+    .\hspace{2.2cm} riêng cho Bộ Y Tế \\
+
+
+{\Large \center \colorbox{gray}{\textcolor{white}{Họat Động Xã Hội}}}\\
+\begin{itemize}
+    \item Tình nguyện mùa hè xanh mỗi năm đại học.
+    \item Tình nguyện tham gia 1 ngày chăm sóc trẻ em bị khuyết tật
+    \item Hiến máu tình nguyện
+    \item Tham gia cuộc thi lập trình (VD: Wecode...) do trường đại học Công Nghệ Thông Tin tổ chức\\
+\end{itemize}
+
+}
+\end{parcolumns}
+
+\newpage
+{\Large \center \colorbox{gray}{\textcolor{white}{Mục tiêu nghề nghiệp}}}
+\begin{itemize}
+    \item Tìm được được một công việc mong muốn trong môi trường chuyên nghiệp năng động, tôn trọng lẫn nhau. 
+    \item Áp dụng được những kinh nghiệm về kỹ năng lập trình đã tích luỹ được trong những năm qua.
+    \item Tương lai thăng tiến đến vị trí quản lý.
+    \item Kỹ năng chuyên môn ngày càng được cải thiện và nâng cao theo thời gian\\
+\end{itemize}
+{\Large \center \colorbox{gray}{\textcolor{white}{Kỹ năng}}}
+\begin{itemize}
+    \item Có khả năng làm việc nhóm tốt và dẫn dầu nhóm, tinh thần hợp tác cao
+    \item Kỹ năng trình bày, thuyết\\trình tốt
+    \item Có kinh nghiệm làm việc với các hệ thống và dự án lớn thuộc chuyên ngành.
+\end{itemize}
+\end{document}
