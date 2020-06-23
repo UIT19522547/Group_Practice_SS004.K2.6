@@ -68,7 +68,7 @@ Nguyễn Văn Toàn
 \newpage
 %-------------BEGIN CV--------------------------------------------------------------------------------------------------------------------------
 
-
+{\LARGE \textbf{I. CV}}
 \begin{parcolumns}[colwidths={1=.35\textwidth},rulebetween=true]{2}
 \colchunk{
 \begin{center}
@@ -90,7 +90,7 @@ Nam\\\
 {\Large \textbf{Học vấn}} \line(1,0){100}\\
 \textbf{Cử nhân khoa học máy tính}
 \begin{itemize}
-    \item Trường đại học: công nghệ thông tin - đại học quốc gia HCM
+    \item Trường đại học: công nghệ thông tin - DHQG HCM
     \item Thời gian bắt đầu - tốt nghiệp:\\ 8/2019 - 3/2022
     \item Tốt nghiệp loại giỏi - điểm trung bình: 8.75
     \item Chuyên ngành: Thị giác máy tính và đa phương tiện
