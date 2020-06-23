@@ -8,6 +8,7 @@
 \usepackage{listings}
 \usepackage{hyperref}
 \usepackage{multicol}
+\usepackage{multirow}
 \usepackage{parcolumns}
 \usepackage{color}
 \usepackage{wrapfig}
@@ -16,8 +17,12 @@
     colorlinks=true,
     linkcolor=blue,
     filecolor=magenta,
-    urlcolor=cyan,
+    urlcolor=cyan,
 }
+\usepackage{array}
+\usepackage{ctable}
+\usepackage{booktabs}
+\usepackage{enumitem}
 
 \begin{document}
 \begin{titlepage}
@@ -52,7 +57,8 @@ Nguyễn Lâm Thảo Vy - 19522547\\
 \emph{Sinh viên 2: }\\
 Nguyễn Thị Thúy An - 19521183\\
 \emph{Sinh viên 3: }\\
-Nông Thanh Hồng - 19521551\\
+Nông Thanh Hồng -
+\\19521551
 \end{flushleft}
 \end{minipage}
 ~
@@ -147,4 +153,101 @@ Có kinh nghiệm làm việc ở nhiều vị trí khác nhau.\\
     \item Kỹ năng trình bày, thuyết\\trình tốt
     \item Có kinh nghiệm làm việc với các hệ thống và dự án lớn thuộc chuyên ngành.
 \end{itemize}
+
+%-------------BEGIN CONTRACT-----------------------------------------------------------------------------------------------------------
+\newpage
+\setlength{\arrayrulewidth}{0.02cm}
+\begin{description}
+{\Large \item[I. ] \textbf{Hợp đồng nhóm}}
+\begin{enumerate}[font=\bfseries]
+    {\large \item \textbf {Thành viên trong nhóm}}\\[0.25cm]
+    \begin{tabular}{|c|c|}
+    \hline
+    \textbf{Tên sinh viên} & \textbf{Mã số sinh viên}
+    \\\hline
+    Nguyễn Thị Thúy An & 19521183
+    \\\hline
+    Nông Thanh Hồng & 19522546
+    \\\hline
+    Nguyễn Lâm Thảo Vy & 1952254
+    \\\hline
+\end{tabular}
+\\[0.25cm]
+    {\large \item \textbf {Nơi làm việc của nhóm}}
+    \begin{itemize}
+        \item Nhóm sử dụng Trello (\url {https://trello.com/}) để lên kế hoạch và phân chia công việc cho từng thành viên:
+    \\ \href{https://trello.com/b/o4KquyNQ/grouppracticess004k26}{Nơi lên kế hoạch làm việc của nhóm tại đây!}
+        \item Nhóm sử dụng GitHub (\url {https://github.com/}) làm nơi làm việc chung để cùng hoàn thành công việc được giao:
+    \\ \href{https://github.com/dokidokiprecure30/Group_Practice_SS004.K2.6}{ Nơi làm việc chung của nhóm tại đây!}
+        \item Các thành viên cập nhật công việc trên GitHub, sau khi được nhóm trưởng và các thành viên còn lại kiểm tra thì vào trello cập nhật đã hoàn thành công việc.
+    \end{itemize}
+    {\large \item \textbf {Phân chia công việc}}\\[0.25cm]
+     \begin{tabular} { |>{\centering} m{2.45cm} | >{\centering}m{2.45cm}| >{\centering}m{2.45cm}| >{\centering}m{2.45cm}| >{\centering}m{2.45cm}| }
+    \hline
+      & \textbf{Trưởng nhóm chỉ đạo nhóm làm việc} & \textbf{Làm CV} & \textbf{Cung cấp thông tin CV} & \textbf{Làm hợp đồng nhóm}
+    \tabularnewline
+    \hline
+    \textbf{Nguyễn Lâm Thảo Vy} & X & X &&
+    \tabularnewline
+    \hline
+    \textbf{Nguyễn Thị Thúy An} &  &&& X
+    \tabularnewline
+    \hline
+    \textbf{Nông Thanh Hồng} &  && X &    
+    \tabularnewline
+    \hline
+\end {tabular}
+    {\large \item \textbf {Mục đích của nhóm}}
+    \begin{itemize}
+    \item Nâng cao tinh thần hợp tác, cùng nhau hoàn thành nhiệm vụ được giao.
+    \item Cải thiện khả năng làm việc nhóm của các thành viên.
+    \item Cải thiện khả năng sử dụng các phần mềm mà môn học đề ra.
+    \end{itemize}
+\end{enumerate}
+{\Large \item[II. ] \textbf{Đánh giá công việc}}
+\begin{enumerate}[font=\bfseries]
+    {\large \item \textbf {Nguyên tắc đánh giá}}\\
+    \hspace*{1cm}Các thành viên đánh giá lẫn nhau và tự đánh giá bản thân dựa trên quá trình làm việc nhóm. Kết quả đánh giá dựa trên số đông.
+    \pagebreak
+    {\large \item \textbf {Tiêu chí đánh giá}}\\[0.25cm]
+\begin{tabular} { |>{\centering} m{2.35
+cm} | >{\centering}m{2.25cm}| >{\centering}m{2.25cm}| >{\centering}m{2.25cm}| >{\centering}m{2.25cm}| }
+    \hline
+    & \textbf{Tuyệt vời} & \textbf{Tốt} & \textbf{Bình thường} & \textbf{Kém} 
+    \tabularnewline
+    \hline
+    \textbf{Thái độ làm việc} & Hoàn thành nhiệm vụ tốt, tích cực giúp đỡ các thành viên khác & Hoàn thành nhiệm vụ tốt, có tham gia giúp đỡ các thành viên khác & Hoàn thành nhiệm vụ & Không hoàn thành nhiệm vụ, Hoàn thành nhiệm vụ kém
+    \tabularnewline
+    \hline
+    \textbf{Chất lượng công việc} & Công việc đạt chất lượng rất tốt & Công việc đạt chất lượng tốt &  Công việc có chất lượng trung bình & Công việc có chất lượng kém
+    \tabularnewline
+    \hline
+    \textbf{Sử dụng thời gian} & Hoàn thành nhanh chóng, trước hạn hoặc đúng hạn & Hoàn thành công việc đúng hạn & Hoàn thành công việc trễ hạn nhưng vẫn trong khoảng thời gian dự trữ & Không hoàn thành công việc trễ hạn, vượt khoảng thời gian dự trữ  
+    \tabularnewline
+    \hline
+    \textbf{Giải quyết vấn đề phát sinh} & Giải quyết tốt các vấn đề phát sinh, giúp các thành viên khác giải quyết vấn đề & Giải quyết tốt các vấn đề phát sinh & Giải quyết được một phần các vấn đề phát sinh & Không biết giải quyết các vấn đề phát sinh
+    \tabularnewline
+    \hline
+    \end{tabular}
+    {\large \item \textbf {Nơi đánh giá}}\\
+    \href{https://docs.google.com/forms/d/e/1FAIpQLSd_j77Yqs2-ygF7U5ZybiVdr0eGjfyC6R2v4OhEESqm5liqOA/viewform}{Nơi đánh giá công việc của nhóm tại đây!}
+    {\large \item \textbf {Kết quả đánh giá}}\\[0.1cm]
+    Bảng kết quả sau dựa trên kết quả đánh giá công việc \href{https://docs.google.com/forms/d/13ICcPzw1pF_6nFaVnVIBUJLtMSyXVMrRMDaD8Csuhmw/viewanalytics}{tại đây}.\\[0.25cm] 
+    \begin{tabular} { |>{\centering} m{2.65cm} | >{\centering}m{2cm}| >{\centering}m{2.35cm}| >{\centering}m{2cm}| >{\centering}m{2.3cm}| }
+    \hline
+      & \textbf{Thái độ làm việc} & \textbf{Chất lượng công việc} &\textbf{Sử dụng thời gian} & \textbf{Giải quyết vấn đề phát sinh}
+    \tabularnewline
+    \hline
+      \textbf{Nguyễn Lâm Thảo Vy} & Tốt & Tốt &  Tốt &  Tốt
+    \tabularnewline
+    \hline
+     \textbf{Nguyễn Thị Thúy An} & Tốt & Tốt &  Tốt &  Tốt
+    \tabularnewline
+    \hline
+    \textbf{Nông Thanh Hồng} & Tốt & Tốt &  Tốt &  Tốt
+    \tabularnewline
+    \hline
+\end {tabular}
+\end{enumerate}
+\end{description}
 \end{document}
