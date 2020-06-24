@@ -30,7 +30,6 @@
 \center
 
 %--------------HEADING--------------------------------------------------------------------------------------------------------
-
 %Tên Trường
 \textsc{\LARGE Đại học quốc gia TP.HCM}
 \newline
@@ -42,7 +41,6 @@
 \textsc{\Large Ngành khoa học máy tính}\\[0.5cm]
 %Môn
 \textsc{\large Môn học: Kỹ năng nghề nghiệp}\\[0.5cm]
-
 %---------------------------TITLE---------------------------------------------------------------------------------------------
 \HRule \\[0.4cm]
 \textsc{\LARGE \textbf{Bài tập nhóm - Tạo CV} }\\
@@ -69,7 +67,7 @@ Nguyễn Văn Toàn
 \end{flushright}
 \end{minipage}
 \\[1cm]
-{\large Thành phố Hồ Chí Minh, tháng 05 năm 2020}
+{\large Thành phố Hồ Chí Minh, tháng 06 năm 2020}
 \end{titlepage}
 \newpage
 %-------------BEGIN CV--------------------------------------------------------------------------------------------------------------------------
@@ -81,22 +79,22 @@ Nguyễn Văn Toàn
     
 \includegraphics[scale=0.05]{Ảnh.jpg}
 \end{center}
-{\LARGE \center \textcolor{cyan}{Nông Thanh Hồng}}\\
-{\large \textbf{Ứng tuyển: Software Engineer - Kỹ sư phần mềm}}\\
+{\huge \center \textcolor{cyan}{Nông Thanh Hồng}}\\
+ \textbf{\large Ứng tuyển:  Software Engineer - Kỹ sư phần mềm}\\
 \includegraphics[scale=0.4]{iconDOB.png}
 20/07/2001\\
-\includegraphics[scale=0.03]{sex-symbol-1831618-1554562.png}
+\includegraphics[scale=0.035]{sex-symbol.png}
 Nam\\\
-\includegraphics[scale=0.04]{png-clipart-blue-phone-inside-circle-icon-telephone-call-symbol-smartphone-ringing-phone-miscellaneous-blue-thumbnail.png}
+\includegraphics[scale=0.05]{blue-phone.png}
 0343297817\\
-\includegraphics[scale=0.04]{png-computer-icons-email-internet-icon-design-gradient-poster-miscellaneous-angle-triangle-logo-clipart.jpg}
+\includegraphics[scale=0.05]{mail.jpg}
 19521551@gm.uit.edu.vn\\
-\includegraphics[scale=0.08]{Untitled-3-25-512.jpg}
+\includegraphics[scale=0.08]{location.jpg}
 Đông Hoà, Dĩ An, Bình Dương, Việt Nam.\\
 {\Large \textbf{Học vấn}} \line(1,0){100}\\
 \textbf{Cử nhân khoa học máy tính}
 \begin{itemize}
-    \item Trường đại học: công nghệ thông tin - đại học quốc gia HCM
+    \item Trường đại học: Đại học Công nghệ thông tin - Đại học quốc gia TP.HCM
     \item Thời gian bắt đầu - tốt nghiệp:\\ 8/2019 - 3/2022
     \item Tốt nghiệp loại giỏi - điểm trung bình: 8.75
     \item Chuyên ngành: Thị giác máy tính và đa phương tiện
@@ -120,12 +118,12 @@ Có kỹ năng tốt về chuyên môn cũng như kỹ năng mềm để quản 
 Sắn sàng học hỏi những kiến thức mới khi cần thiết.\\
 Có kinh nghiệm làm việc ở nhiều vị trí khác nhau.\\
 
-{\Large \center \colorbox{gray}{\textcolor{white}{Kinh Nghiệm Nghề Nghiệp}}}\\[0.5cm]
-    2022-2023: \quad Deverloper tại IPA company\\
+{\Large \center \colorbox{gray}{\textcolor{white}{Kinh Nghiệm Nghề Nghiệp}}}\\
+    \\2022-2023: \quad Deverloper tại IPA company\\
     2023-2025: \quad Software Engineer tại BiliBili\\
     2025-2027: \quad Senior Software Engineer tại BiliBili\\
     2026: \hspace{2.8em} Tham gia dự án phát triển phần  mềm dành \\
-    .\hspace{2.2cm} riêng cho Bộ Y Tế \\
+    \hspace*{2.2cm} riêng cho Bộ Y Tế \\
 
 
 {\Large \center \colorbox{gray}{\textcolor{white}{Họat Động Xã Hội}}}\\
@@ -135,10 +133,8 @@ Có kinh nghiệm làm việc ở nhiều vị trí khác nhau.\\
     \item Hiến máu tình nguyện
     \item Tham gia cuộc thi lập trình (VD: Wecode...) do trường đại học Công Nghệ Thông Tin tổ chức\\
 \end{itemize}
-
 }
 \end{parcolumns}
-
 \newpage
 {\Large \center \colorbox{gray}{\textcolor{white}{Mục tiêu nghề nghiệp}}}
 \begin{itemize}
@@ -153,8 +149,6 @@ Có kinh nghiệm làm việc ở nhiều vị trí khác nhau.\\
     \item Kỹ năng trình bày, thuyết\\trình tốt
     \item Có kinh nghiệm làm việc với các hệ thống và dự án lớn thuộc chuyên ngành.
 \end{itemize}
-
-%-------------BEGIN CONTRACT-----------------------------------------------------------------------------------------------------------
 \newpage
 \setlength{\arrayrulewidth}{0.02cm}
 \begin{description}
@@ -167,9 +161,9 @@ Có kinh nghiệm làm việc ở nhiều vị trí khác nhau.\\
     \\\hline
     Nguyễn Thị Thúy An & 19521183
     \\\hline
-    Nông Thanh Hồng & 19522546
+    Nông Thanh Hồng & 19521551
     \\\hline
-    Nguyễn Lâm Thảo Vy & 1952254
+    Nguyễn Lâm Thảo Vy & 19522547
     \\\hline
 \end{tabular}
 \\[0.25cm]
@@ -177,9 +171,9 @@ Có kinh nghiệm làm việc ở nhiều vị trí khác nhau.\\
     \begin{itemize}
         \item Nhóm sử dụng Trello (\url {https://trello.com/}) để lên kế hoạch và phân chia công việc cho từng thành viên:
     \\ \href{https://trello.com/b/o4KquyNQ/grouppracticess004k26}{Nơi lên kế hoạch làm việc của nhóm tại đây!}
-        \item Nhóm sử dụng GitHub (\url {https://github.com/}) làm nơi làm việc chung để cùng hoàn thành công việc được giao:
+        \item Nhóm sử dụng GitHub (\url {https://github.com/}) làm nơi làm việc chung để cùng hoàn thành công việc:
     \\ \href{https://github.com/dokidokiprecure30/Group_Practice_SS004.K2.6}{ Nơi làm việc chung của nhóm tại đây!}
-        \item Các thành viên cập nhật công việc trên GitHub, sau khi được nhóm trưởng và các thành viên còn lại kiểm tra thì vào trello cập nhật đã hoàn thành công việc.
+        \item Các thành viên cập nhật công việc trên GitHub, sau khi được nhóm trưởng và các thành viên còn lại kiểm tra thì vào Trello cập nhật đã hoàn thành công việc.
     \end{itemize}
     {\large \item \textbf {Phân chia công việc}}\\[0.25cm]
      \begin{tabular} { |>{\centering} m{2.45cm} | >{\centering}m{2.45cm}| >{\centering}m{2.45cm}| >{\centering}m{2.45cm}| >{\centering}m{2.45cm}| }
